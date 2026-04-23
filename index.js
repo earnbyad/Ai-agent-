@@ -70,3 +70,6 @@ app.get('/', (req, res) => {
     res.send("Bdstored AI Agent is Live and Running!");
 });
 
+app.get('/privacy', (req, res) => {
+    res.send("<h1>Privacy Policy</h1><p>Bdstored AI agent respects your privacy and only processes messages for customer support purposes.</p>");
+});
