@@ -64,3 +64,9 @@ function sendResponse(psid, responseText) {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Bdstored AI is running on port ${PORT}`));
+
+
+app.get('/', (req, res) => {
+    res.send("Bdstored AI Agent is Live and Running!");
+});
+
